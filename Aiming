@@ -1,31 +1,31 @@
 getgenv().Yuth = {
     Silent = {
-        Enabled = true,
-        Keybind = "p",
+        Enabled = false,
+        Keybind = "c",
         Prediction = 0.1172,
         AutoPrediction = true,
     },
     FOV = {
-        Visible = true,
+        Visible = false,
         Radius = 20,
     },
     Tracer = {
         Key = "C",
-        Enabled = true,
+        Enabled = false,
         Prediction = 0.025,
         Smoothness = 0.0623,
     },
     Checks = {
-        Death = true,
-        Knocked = true,
-        NoGroundShots = true,
+        Death = false,
+        Knocked = false,
+        NoGroundShots = false,
     },
     Misc = {
-        Shake = true,
+        Shake = false,
         ShakeValue = 10.5,
     },
     Macro = {
-        Enabled = true,
+        Enabled = false,
         Keybind = "q",
     },
 }
